@@ -1,0 +1,186 @@
+2020-11-24T09:02:43+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\xampp\htdocs\resolve-it\wp-content\themes\storefront-child\functions.php on line 19 and at least 2 expected in C:\xampp\htdocs\resolve-it\wp-includes\plugin.php:583
+Stack trace:
+#0 C:\xampp\htdocs\resolve-it\wp-content\themes\storefront-child\functions.php(19): remove_action('woocommerce_sin...')
+#1 C:\xampp\htdocs\resolve-it\wp-settings.php(514): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\resolve-it\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\resolve-it\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\resolve-it\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\resolve-it\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown в C:\xampp\htdocs\resolve-it\wp-includes\plugin.php на строке 583
+
+2020-11-24T09:02:46+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\xampp\htdocs\resolve-it\wp-content\themes\storefront-child\functions.php on line 19 and at least 2 expected in C:\xampp\htdocs\resolve-it\wp-includes\plugin.php:583
+Stack trace:
+#0 C:\xampp\htdocs\resolve-it\wp-content\themes\storefront-child\functions.php(19): remove_action('woocommerce_sin...')
+#1 C:\xampp\htdocs\resolve-it\wp-settings.php(514): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\resolve-it\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\resolve-it\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\resolve-it\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\resolve-it\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown в C:\xampp\htdocs\resolve-it\wp-includes\plugin.php на строке 583
+
+2020-11-24T19:19:35+00:00 CRITICAL syntax error, unexpected end of file в C:\xampp\htdocs\resolve-it\wp-content\themes\storefront-child\functions.php на строке 49
+
+2020-11-24T19:19:36+00:00 CRITICAL syntax error, unexpected end of file в C:\xampp\htdocs\resolve-it\wp-content\themes\storefront-child\functions.php на строке 49
+
+2020-11-24T19:19:38+00:00 CRITICAL syntax error, unexpected end of file в C:\xampp\htdocs\resolve-it\wp-content\themes\storefront-child\functions.php на строке 49
+
+2020-11-24T20:26:46+00:00 CRITICAL syntax error, unexpected '<', expecting end of file в C:\xampp\htdocs\resolve-it\wp-content\themes\storefront-child\functions.php на строке 21
+
+2020-11-24T20:26:47+00:00 CRITICAL syntax error, unexpected '<', expecting end of file в C:\xampp\htdocs\resolve-it\wp-content\themes\storefront-child\functions.php на строке 21
+
+2020-11-24T21:27:20+00:00 CRITICAL Uncaught Error: Call to a member function update_meta_data() on null in C:\xampp\htdocs\resolve-it\wp-content\themes\storefront-child\functions.php:48
+Stack trace:
+#0 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(289): art_woo_custom_fields_save(17)
+#1 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\resolve-it\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\resolve-it\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-meta-boxes.php(222): do_action('woocommerce_pro...', 17, Object(WP_Post))
+#4 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(289): WC_Admin_Meta_Boxes->save_meta_boxes(17, Object(WP_Post))
+#5 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\resolve-it\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\resolve-it\wp-includes\post.php(4260): do_action('save_post', 17, Object(WP_Post), tr в C:\xampp\htdocs\resolve-it\wp-content\themes\storefront-child\functions.php на строке 48
+
+2020-11-24T21:31:23+00:00 CRITICAL syntax error, unexpected '<' в C:\xampp\htdocs\resolve-it\wp-content\themes\storefront-child\functions.php на строке 61
+
+2020-11-24T21:31:51+00:00 CRITICAL syntax error, unexpected '<' в C:\xampp\htdocs\resolve-it\wp-content\themes\storefront-child\functions.php на строке 61
+
+2020-11-24T21:32:31+00:00 CRITICAL syntax error, unexpected end of file в C:\xampp\htdocs\resolve-it\wp-content\themes\storefront-child\functions.php на строке 70
+
+2020-11-24T21:32:35+00:00 CRITICAL syntax error, unexpected end of file в C:\xampp\htdocs\resolve-it\wp-content\themes\storefront-child\functions.php на строке 70
+
+2020-11-24T21:33:14+00:00 CRITICAL syntax error, unexpected end of file в C:\xampp\htdocs\resolve-it\wp-content\themes\storefront-child\functions.php на строке 70
+
+2020-11-24T21:33:56+00:00 CRITICAL Uncaught Error: Call to a member function update_meta_data() on null in C:\xampp\htdocs\resolve-it\wp-content\themes\storefront-child\functions.php:48
+Stack trace:
+#0 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(289): art_woo_custom_fields_save(17)
+#1 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\resolve-it\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\resolve-it\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-meta-boxes.php(222): do_action('woocommerce_pro...', 17, Object(WP_Post))
+#4 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(289): WC_Admin_Meta_Boxes->save_meta_boxes(17, Object(WP_Post))
+#5 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\resolve-it\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\resolve-it\wp-includes\post.php(4260): do_action('save_post', 17, Object(WP_Post), tr в C:\xampp\htdocs\resolve-it\wp-content\themes\storefront-child\functions.php на строке 48
+
+2020-11-24T21:34:36+00:00 CRITICAL Uncaught Error: Call to a member function update_meta_data() on null in C:\xampp\htdocs\resolve-it\wp-content\themes\storefront-child\functions.php:48
+Stack trace:
+#0 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(289): art_woo_custom_fields_save(17)
+#1 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\resolve-it\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\resolve-it\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-meta-boxes.php(222): do_action('woocommerce_pro...', 17, Object(WP_Post))
+#4 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(289): WC_Admin_Meta_Boxes->save_meta_boxes(17, Object(WP_Post))
+#5 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\resolve-it\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\resolve-it\wp-includes\post.php(4260): do_action('save_post', 17, Object(WP_Post), tr в C:\xampp\htdocs\resolve-it\wp-content\themes\storefront-child\functions.php на строке 48
+
+2020-11-24T21:36:10+00:00 CRITICAL Uncaught Error: Call to a member function update_meta_data() on null in C:\xampp\htdocs\resolve-it\wp-content\themes\storefront-child\functions.php:48
+Stack trace:
+#0 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(289): art_woo_custom_fields_save(17)
+#1 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\resolve-it\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\resolve-it\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-meta-boxes.php(222): do_action('woocommerce_pro...', 17, Object(WP_Post))
+#4 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(289): WC_Admin_Meta_Boxes->save_meta_boxes(17, Object(WP_Post))
+#5 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\resolve-it\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\resolve-it\wp-includes\post.php(4260): do_action('save_post', 17, Object(WP_Post), tr в C:\xampp\htdocs\resolve-it\wp-content\themes\storefront-child\functions.php на строке 48
+
+2020-11-24T21:36:13+00:00 CRITICAL Uncaught Error: Call to a member function update_meta_data() on null in C:\xampp\htdocs\resolve-it\wp-content\themes\storefront-child\functions.php:48
+Stack trace:
+#0 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(289): art_woo_custom_fields_save(17)
+#1 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\resolve-it\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\resolve-it\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-meta-boxes.php(222): do_action('woocommerce_pro...', 17, Object(WP_Post))
+#4 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(289): WC_Admin_Meta_Boxes->save_meta_boxes(17, Object(WP_Post))
+#5 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\resolve-it\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\resolve-it\wp-includes\post.php(4260): do_action('save_post', 17, Object(WP_Post), tr в C:\xampp\htdocs\resolve-it\wp-content\themes\storefront-child\functions.php на строке 48
+
+2020-11-24T21:37:22+00:00 CRITICAL Uncaught Error: Call to a member function update_meta_data() on null in C:\xampp\htdocs\resolve-it\wp-content\themes\storefront-child\functions.php:48
+Stack trace:
+#0 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(289): art_woo_custom_fields_save(17)
+#1 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\resolve-it\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\resolve-it\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-meta-boxes.php(222): do_action('woocommerce_pro...', 17, Object(WP_Post))
+#4 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(289): WC_Admin_Meta_Boxes->save_meta_boxes(17, Object(WP_Post))
+#5 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\resolve-it\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\resolve-it\wp-includes\post.php(4260): do_action('save_post', 17, Object(WP_Post), tr в C:\xampp\htdocs\resolve-it\wp-content\themes\storefront-child\functions.php на строке 48
+
+2020-11-24T21:37:36+00:00 CRITICAL Uncaught Error: Call to a member function update_meta_data() on null in C:\xampp\htdocs\resolve-it\wp-content\themes\storefront-child\functions.php:48
+Stack trace:
+#0 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(289): art_woo_custom_fields_save(17)
+#1 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\resolve-it\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\resolve-it\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-meta-boxes.php(222): do_action('woocommerce_pro...', 17, Object(WP_Post))
+#4 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(289): WC_Admin_Meta_Boxes->save_meta_boxes(17, Object(WP_Post))
+#5 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\resolve-it\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\resolve-it\wp-includes\post.php(4260): do_action('save_post', 17, Object(WP_Post), tr в C:\xampp\htdocs\resolve-it\wp-content\themes\storefront-child\functions.php на строке 48
+
+2020-11-24T21:51:47+00:00 CRITICAL Uncaught Error: Call to a member function update_meta_data() on null in C:\xampp\htdocs\resolve-it\wp-content\themes\storefront-child\functions.php:48
+Stack trace:
+#0 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(289): art_woo_custom_fields_save(17)
+#1 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\resolve-it\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\resolve-it\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-meta-boxes.php(222): do_action('woocommerce_pro...', 17, Object(WP_Post))
+#4 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(289): WC_Admin_Meta_Boxes->save_meta_boxes(17, Object(WP_Post))
+#5 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\resolve-it\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\resolve-it\wp-includes\post.php(4260): do_action('save_post', 17, Object(WP_Post), tr в C:\xampp\htdocs\resolve-it\wp-content\themes\storefront-child\functions.php на строке 48
+
+2020-11-24T21:51:51+00:00 CRITICAL Uncaught Error: Call to a member function update_meta_data() on null in C:\xampp\htdocs\resolve-it\wp-content\themes\storefront-child\functions.php:48
+Stack trace:
+#0 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(289): art_woo_custom_fields_save(17)
+#1 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\resolve-it\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\resolve-it\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-meta-boxes.php(222): do_action('woocommerce_pro...', 17, Object(WP_Post))
+#4 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(289): WC_Admin_Meta_Boxes->save_meta_boxes(17, Object(WP_Post))
+#5 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\resolve-it\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\resolve-it\wp-includes\post.php(4260): do_action('save_post', 17, Object(WP_Post), tr в C:\xampp\htdocs\resolve-it\wp-content\themes\storefront-child\functions.php на строке 48
+
+2020-11-24T21:56:23+00:00 CRITICAL Uncaught Error: Call to a member function update_meta_data() on null in C:\xampp\htdocs\resolve-it\wp-content\themes\storefront-child\functions.php:48
+Stack trace:
+#0 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(289): art_woo_custom_fields_save(29)
+#1 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\resolve-it\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\resolve-it\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-meta-boxes.php(222): do_action('woocommerce_pro...', 29, Object(WP_Post))
+#4 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(289): WC_Admin_Meta_Boxes->save_meta_boxes(29, Object(WP_Post))
+#5 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\resolve-it\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\resolve-it\wp-includes\post.php(4260): do_action('save_post', 29, Object(WP_Post), tr в C:\xampp\htdocs\resolve-it\wp-content\themes\storefront-child\functions.php на строке 48
+
+2020-11-24T21:56:27+00:00 CRITICAL Uncaught Error: Call to a member function update_meta_data() on null in C:\xampp\htdocs\resolve-it\wp-content\themes\storefront-child\functions.php:48
+Stack trace:
+#0 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(289): art_woo_custom_fields_save(29)
+#1 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\resolve-it\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\resolve-it\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-meta-boxes.php(222): do_action('woocommerce_pro...', 29, Object(WP_Post))
+#4 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(289): WC_Admin_Meta_Boxes->save_meta_boxes(29, Object(WP_Post))
+#5 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\resolve-it\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\resolve-it\wp-includes\post.php(4260): do_action('save_post', 29, Object(WP_Post), tr в C:\xampp\htdocs\resolve-it\wp-content\themes\storefront-child\functions.php на строке 48
+
+2020-11-24T21:56:53+00:00 CRITICAL Uncaught Error: Call to a member function update_meta_data() on null in C:\xampp\htdocs\resolve-it\wp-content\themes\storefront-child\functions.php:48
+Stack trace:
+#0 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(289): art_woo_custom_fields_save(29)
+#1 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\resolve-it\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\resolve-it\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-meta-boxes.php(222): do_action('woocommerce_pro...', 29, Object(WP_Post))
+#4 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(289): WC_Admin_Meta_Boxes->save_meta_boxes(29, Object(WP_Post))
+#5 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\resolve-it\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\resolve-it\wp-includes\post.php(4260): do_action('save_post', 29, Object(WP_Post), tr в C:\xampp\htdocs\resolve-it\wp-content\themes\storefront-child\functions.php на строке 48
+
+2020-11-24T22:00:45+00:00 CRITICAL Uncaught Error: Call to a member function save() on null in C:\xampp\htdocs\resolve-it\wp-content\themes\storefront-child\functions.php:55
+Stack trace:
+#0 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(289): art_woo_custom_fields_save(29)
+#1 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\resolve-it\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\resolve-it\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-meta-boxes.php(222): do_action('woocommerce_pro...', 29, Object(WP_Post))
+#4 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(289): WC_Admin_Meta_Boxes->save_meta_boxes(29, Object(WP_Post))
+#5 C:\xampp\htdocs\resolve-it\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\resolve-it\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\resolve-it\wp-includes\post.php(4260): do_action('save_post', 29, Object(WP_Post), true)
+#8 C:\xa в C:\xampp\htdocs\resolve-it\wp-content\themes\storefront-child\functions.php на строке 55
+
